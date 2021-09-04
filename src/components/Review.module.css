@@ -1,0 +1,73 @@
+.reviewContainer {
+  background-color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 2rem 1rem;
+  max-width: 50rem;
+  border-radius: 1rem;
+}
+
+.imgContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #78c8e9;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.reviewContainer img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.5rem solid #78c8e9;
+}
+
+.reviewContainer h2 {
+  margin-top: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.job {
+  color: #78c8e9;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.content {
+  font-size: 1.5rem;
+}
+
+.actions {
+  color: #78c8e9;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.actions svg {
+  display: inline-block;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.reviewContainer button {
+  cursor: pointer;
+  background-color: #78c8e9;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+}
