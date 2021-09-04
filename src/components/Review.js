@@ -17,7 +17,9 @@ const Review = () => {
     if (currentReview === 1) {
       setCurrentReview(4);
     } else {
-      setCurrentReview(currentReview--);
+      setCurrentReview(prev => {
+        return prev - 1;
+      });
     }
   };
 
@@ -25,7 +27,9 @@ const Review = () => {
     if (currentReview === 4) {
       setCurrentReview(1);
     } else {
-      setCurrentReview(currentReview++);
+      setCurrentReview(prev => {
+        return prev + 1;
+      });
     }
   };
 
